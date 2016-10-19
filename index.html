@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>User Survey</title>
+  </head>
+  <body>
+    <h2>Select Box Question</h2>
+    <form>
+      <label for="select">What do you drive?</label>
+      <select class="form-control" id="select">
+        <option>Car</option>
+        <option>Truck</option>
+        <option>Motorcycle</option>
+        <option>Bicycle</option>
+        <option>None</option>
+      </select>
+
+      <label for="radio">Where do you live?</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="home" value="Oregon" checked>
+          Oregon
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="home" value="Washington">
+          Washington
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="home" value="Other">
+          Other
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="start">When did you start at Epicodus?</label>
+        <input id="start" class="form-control" type="date">
+      </div>
+
+      <div class="form-group">
+        <label for="color">What color are your shoes?</label>
+        <input type="color" class="form-control" id="color">
+      </div>
+    </form>
+  </body>
+</html>
